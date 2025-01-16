@@ -1,0 +1,10 @@
+import random
+
+signo = "qwe378chfjss5"
+lg = int(input("¿cuanto quieres de largo la contraseña?"))
+contra = []
+
+for i in range(lg):
+    x = random.choice(signo)
+    contra += x
+print (contra)
